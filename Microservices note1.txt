@@ -1,0 +1,23 @@
+Monolithic service Vs Micro service
+
+Monolithic service
+When a large number of Enterprise applications hosted/deployed as single web application it is called monolithic service.
+
+Drawbacks of monolithic service:
+1. Since everything is packaged as one single EAR/WAR file, if any one application has a performance issue, everything will suffer, there is single point of failure.
+
+2.Difficult to scale up when different applications have conflicting resource requirements
+
+3.Difficult to try with new technology stack.
+
+Microservices
+The idea is to split your application into a set of smaller, interconnected services instead of building a single monolithic application. Each service is called micro service.
+
+Benefits of microservices:
+1.Flexible--different microservices can be developed in different technologies
+2.Reliable-If one feature goes down other features will still work.
+3.Scalable- each microservice can be scaled induvidually.
+
+Challenges of microservice
+1.Devloping distributed system can be complex
+2.Initial implementation of microservices is difficult.

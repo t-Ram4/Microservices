@@ -1,0 +1,10 @@
+Eureka Discovery server
+
+It is a naming server which is used to register the available microservices.
+Any consumer wants to consume a microservice, it does not require to hardcode the url of that microservice, instead it can find out that microservice using Eureka server.
+
+
+Zuul Gateway
+
+It is a gateway that will act as a single point of entry for all the microservices.
+
